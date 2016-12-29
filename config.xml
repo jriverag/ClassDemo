@@ -3,11 +3,9 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xlmns:gap = "http://phonegap.com/ns/1.0"
         id = "edu.uab.business.studentapp"
-        versionCode = "1"
         version = "0.0.1">
         
-    <!-- versionCode is optional and Android only -->
-    
+   
     <name>Mobile App Demonstration</name>
     
     <description>
@@ -19,7 +17,7 @@
     </author>
     
     <preference name="phonegap-version" value="cli-6.3.0" />
- <!--   <plugin name="cordova-plugin-whitelist" source="npm" /> -->
+    <plugin name="cordova-plugin-whitelist" source="npm" />
     <access origin="*" />
     
     </widget>
